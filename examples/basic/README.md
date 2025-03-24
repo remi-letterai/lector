@@ -2,7 +2,7 @@
 
 This is a basic example of using Lector, a headless PDF viewer for React.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/anaralabs/lector/tree/main/examples/basic)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/letter-ai/lector/tree/main/examples/basic)
 
 ## Features
 
@@ -17,7 +17,7 @@ This is a basic example of using Lector, a headless PDF viewer for React.
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/anaralabs/lector.git
+git clone https://github.com/remi-letterai/lector.git
 cd lector/examples/basic
 ```
 
@@ -38,4 +38,4 @@ pnpm dev
 ## Learn More
 
 - [Lector Documentation](https://lector-weld.vercel.app/)
-- [GitHub Repository](https://github.com/anaralabs/lector)
+- [GitHub Repository](https://github.com/remi-letterai/lector)

@@ -12,12 +12,12 @@ Lector implements dark mode support through custom CSS filters since PDF.js curr
 We use CSS filters to invert colors and adjust them for better readability in dark mode. This solution, while not perfect, provides a reasonable dark mode experience without requiring modifications to PDF.js itself.
 
 ```tsx
-import { Root, Pages, Page, CanvasLayer } from "@anaralabs/lector";
+import { Root, Pages, Page, CanvasLayer } from "@letter-ai/lector";
 
 function PDFViewer() {
   return (
-    <Root fileUrl='/sample.pdf'>
-      <Pages className='dark:invert-[94%] dark:hue-rotate-180 dark:brightness-[80%] dark:contrast-[228%]'>
+    <Root fileUrl="/sample.pdf">
+      <Pages className="dark:invert-[94%] dark:hue-rotate-180 dark:brightness-[80%] dark:contrast-[228%]">
         <Page>
           <CanvasLayer />
         </Page>

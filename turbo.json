@@ -23,7 +23,7 @@
       "persistent": true,
       "cache": false
     },
-    "@anaralabs/lector#test": {
+    "@letter-ai/lector#test": {
       "outputs": ["dist/**", "coverage/**"],
       "dependsOn": ["build"]
     }

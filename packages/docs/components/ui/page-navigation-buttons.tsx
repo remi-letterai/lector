@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { usePdf, usePdfJump } from "@anaralabs/lector";
+import { usePdf, usePdfJump } from "@letter-ai/lector";
 import { Button } from "./button";
 
 const PageNavigationButtons = () => {

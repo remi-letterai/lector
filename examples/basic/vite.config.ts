@@ -9,6 +9,6 @@ export default defineConfig({
     host: true,
   },
   optimizeDeps: {
-    include: ["@anaralabs/lector", "pdfjs-dist"],
+    include: ["@letter-ai/lector", "pdfjs-dist"],
   },
 });

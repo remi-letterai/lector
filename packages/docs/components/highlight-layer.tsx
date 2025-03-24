@@ -9,7 +9,7 @@ import {
   Root,
   TextLayer,
   usePdfJump,
-} from "@anaralabs/lector";
+} from "@letter-ai/lector";
 import "@/lib/setup";
 
 const fileUrl = "/pdf/pathways.pdf";

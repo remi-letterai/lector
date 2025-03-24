@@ -8,7 +8,7 @@ import {
   Root,
   Search,
   TextLayer,
-} from "@anaralabs/lector";
+} from "@letter-ai/lector";
 
 import "@/lib/setup";
 import { SearchUI } from "./custom-search";

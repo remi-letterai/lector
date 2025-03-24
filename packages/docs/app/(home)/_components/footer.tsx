@@ -17,7 +17,7 @@ export function Footer(): React.ReactElement {
 
           <div className="flex gap-6">
             <a
-              href="https://github.com/anaralabs/lector"
+              href="https://github.com/remi-letterai/lector"
               target="_blank"
               rel="noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
@@ -26,7 +26,7 @@ export function Footer(): React.ReactElement {
               <Icon as={Github} className="h-5 w-5" />
             </a>
             <a
-              href="https://twitter.com/anaralabs"
+              href="https://twitter.com/letter-ai"
               target="_blank"
               rel="noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"

@@ -1,5 +1,5 @@
 import React from "react";
-import { SelectionTooltip } from "@anaralabs/lector";
+import { SelectionTooltip } from "@letter-ai/lector";
 
 export const CustomSelect = ({ onHighlight }: { onHighlight: () => void }) => {
   return (

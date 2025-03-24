@@ -9,7 +9,7 @@ import {
   TextLayer,
   ZoomIn,
   ZoomOut,
-} from "@anaralabs/lector";
+} from "@letter-ai/lector";
 
 import "@/lib/setup";
 

@@ -1,5 +1,5 @@
 {
-  "name": "@anaralabs/lector",
+  "name": "@letter-ai/lector",
   "version": "0.0.0-semantically-released",
   "description": "Headless PDF viewer for React",
   "author": "andrewdr (https://github.com/andrewdoro)",
@@ -85,18 +85,18 @@
     "headless",
     "viewer",
     "react-pdf",
-    "anaralabs",
+    "letter-ai",
     "typescript"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anaralabs/lector.git",
+    "url": "git+https://github.com/remi-letterai/lector.git",
     "directory": "packages/nuqs"
   },
   "bugs": {
-    "url": "https://github.com/anaralabs/lector/issues"
+    "url": "https://github.com/remi-letterai/lector/issues"
   },
-  "homepage": "https://github.com/anaralabs/lector",
+  "homepage": "https://github.com/remi-letterai/lector",
   "size-limit": [
     {
       "name": "Client",

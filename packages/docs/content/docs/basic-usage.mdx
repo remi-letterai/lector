@@ -33,12 +33,15 @@ GlobalWorkerOptions.workerSrc = new URL(
 Here's a minimal example of a PDF viewer:
 
 ```tsx
-import { Root, Pages, Page, CanvasLayer, TextLayer } from "@anaralabs/lector";
+import { Root, Pages, Page, CanvasLayer, TextLayer } from "@letter-ai/lector";
 
 function PDFViewer() {
   return (
-    <Root source='/sample.pdf' className='w-full h-[600px] border rounded-lg overflow-hidden'>
-      <Pages className='p-4'>
+    <Root
+      source="/sample.pdf"
+      className="w-full h-[600px] border rounded-lg overflow-hidden"
+    >
+      <Pages className="p-4">
         <Page>
           <CanvasLayer />
           <TextLayer />
@@ -57,8 +60,8 @@ The `Root` component is the main container that manages the PDF document state:
 
 ```tsx
 <Root
-  source='/path/to/pdf' // URL or path to PDF file
-  className='...' // Container styling
+  source="/path/to/pdf" // URL or path to PDF file
+  className="..." // Container styling
   loader={<Loading />} // Custom loading component
   onLoad={handleLoad} // Called when PDF is loaded
   onError={handleError} // Called on load error
@@ -73,7 +76,7 @@ The `Pages` component handles page layout and virtualization:
 
 ```tsx
 <Pages
-  className='...' // Container styling
+  className="..." // Container styling
 >
   {/* Page component */}
 </Pages>
@@ -97,12 +100,12 @@ Each page can have multiple layers for different functionality:
 ### Adding Zoom Controls
 
 ```tsx
-import { ZoomIn, ZoomOut, CurrentZoom } from "@anaralabs/lector";
+import { ZoomIn, ZoomOut, CurrentZoom } from "@letter-ai/lector";
 
 function PDFViewerWithZoom() {
   return (
-    <Root source='/sample.pdf'>
-      <div className='flex gap-2 p-2'>
+    <Root source="/sample.pdf">
+      <div className="flex gap-2 p-2">
         <ZoomOut />
         <CurrentZoom />
         <ZoomIn />
@@ -121,12 +124,12 @@ function PDFViewerWithZoom() {
 ### Adding Page Navigation
 
 ```tsx
-import { CurrentPage, TotalPages } from "@anaralabs/lector";
+import { CurrentPage, TotalPages } from "@letter-ai/lector";
 
 function PDFViewerWithNavigation() {
   return (
-    <Root source='/sample.pdf'>
-      <div className='flex items-center gap-2 p-2'>
+    <Root source="/sample.pdf">
+      <div className="flex items-center gap-2 p-2">
         <CurrentPage /> of <TotalPages />
       </div>
       <Pages>
@@ -158,14 +161,18 @@ Check out these guides to learn more:
 
 <Cards>
   <Card
-    title='Advanced Features'
-    href='/docs/code/thumbnails'
-    description='Learn about thumbnails, search, and more'
+    title="Advanced Features"
+    href="/docs/code/thumbnails"
+    description="Learn about thumbnails, search, and more"
   />
   <Card
-    title='Customization'
-    href='/docs/code/basic'
-    description='Style and customize your PDF viewer'
+    title="Customization"
+    href="/docs/code/basic"
+    description="Style and customize your PDF viewer"
   />
-  <Card title='Examples' href='/docs/code' description='View more interactive examples' />
+  <Card
+    title="Examples"
+    href="/docs/code"
+    description="View more interactive examples"
+  />
 </Cards>

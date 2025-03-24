@@ -17,16 +17,16 @@ Before installing Lector, make sure you have:
 
 ```bash
 # Using npm
-npm install @anaralabs/lector pdfjs-dist
+npm install @letter-ai/lector pdfjs-dist
 
 # Using yarn
-yarn add @anaralabs/lector pdfjs-dist
+yarn add @letter-ai/lector pdfjs-dist
 
 # Using pnpm
-pnpm add @anaralabs/lector pdfjs-dist
+pnpm add @letter-ai/lector pdfjs-dist
 
 # Using bun
-bun add @anaralabs/lector pdfjs-dist
+bun add @letter-ai/lector pdfjs-dist
 ```
 
 ## Setting up PDF.js Worker
@@ -49,7 +49,7 @@ GlobalWorkerOptions.workerSrc = new URL(
 
 export function PDFViewer() {
   return (
-    <Root source='/sample.pdf'>
+    <Root source="/sample.pdf">
       <Pages>
         <Page>
           <CanvasLayer />
@@ -65,13 +65,13 @@ export function PDFViewer() {
 In your PDF viewer component:
 
 ```tsx
-import { Root, Pages, Page, CanvasLayer } from "@anaralabs/lector";
+import { Root, Pages, Page, CanvasLayer } from "@letter-ai/lector";
 import "pdfjs-dist/build/pdf.worker.min.mjs";
 import "pdfjs-dist/web/pdf_viewer.css";
 
 export function PDFViewer() {
   return (
-    <Root source='/sample.pdf'>
+    <Root source="/sample.pdf">
       <Pages>
         <Page>
           <CanvasLayer />
@@ -96,11 +96,11 @@ import "pdfjs-dist/web/pdf_viewer.css";
 To verify that Lector is properly installed, create a basic PDF viewer component:
 
 ```tsx
-import { Root, Pages, Page, CanvasLayer } from "@anaralabs/lector";
+import { Root, Pages, Page, CanvasLayer } from "@letter-ai/lector";
 
 function BasicPDFViewer() {
   return (
-    <Root source='/sample.pdf'>
+    <Root source="/sample.pdf">
       <Pages>
         <Page>
           <CanvasLayer />
@@ -126,9 +126,13 @@ Now that you have Lector installed, you can:
 
 <Cards>
   <Card
-    title='Learn Basic Usage'
-    href='/docs/basic-usage'
-    description='Get started with core components'
+    title="Learn Basic Usage"
+    href="/docs/basic-usage"
+    description="Get started with core components"
   />
-  <Card title='View Examples' href='/docs/code/basic' description='See Lector in action' />
+  <Card
+    title="View Examples"
+    href="/docs/code/basic"
+    description="See Lector in action"
+  />
 </Cards>

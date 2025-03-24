@@ -1,4 +1,4 @@
-import { usePdf } from "@anaralabs/lector";
+import { usePdf } from "@letter-ai/lector";
 import { ChevronUpIcon, MinusIcon, PlusIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {

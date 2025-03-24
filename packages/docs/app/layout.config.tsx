@@ -7,7 +7,7 @@ import Logo from "@/public/logo.png";
  * Shared layout configurations
  */
 export const baseOptions: BaseLayoutProps = {
-  githubUrl: "https://github.com/anaralabs/lector",
+  githubUrl: "https://github.com/remi-letterai/lector",
 
   nav: {
     title: (

@@ -10,7 +10,7 @@ import {
   TextLayer,
   useSelectionDimensions,
   usePdf,
-} from "@anaralabs/lector";
+} from "@letter-ai/lector";
 
 import "@/lib/setup";
 import { CustomSelect } from "./custom-select";

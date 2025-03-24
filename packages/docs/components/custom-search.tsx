@@ -5,7 +5,7 @@ import {
   usePdf,
   usePdfJump,
   useSearch,
-} from "@anaralabs/lector";
+} from "@letter-ai/lector";
 import { useEffect, useState } from "react";
 
 interface ResultItemProps {

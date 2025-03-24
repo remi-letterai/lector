@@ -12,7 +12,7 @@ import {
   Thumbnails,
   ZoomIn,
   ZoomOut,
-} from "@anaralabs/lector";
+} from "@letter-ai/lector";
 import { cn } from "fumadocs-ui/components/api";
 import { useState } from "react";
 

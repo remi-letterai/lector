@@ -16,13 +16,13 @@ export default function Home() {
           </h2>
           <p className="text-sm">
             We&apos;ve changed our name from <strong>unriddle-ai</strong> to{" "}
-            <strong>anaralabs</strong>. Please update your dependencies from{" "}
+            <strong>letter-ai</strong>. Please update your dependencies from{" "}
             <code className="bg-amber-100 px-1.5 py-0.5 rounded text-amber-900">
               @unriddle-ai/lector
             </code>{" "}
             to{" "}
             <code className="bg-amber-100 px-1.5 py-0.5 rounded text-amber-900">
-              @anaralabs/lector
+              @letter-ai/lector
             </code>
             .
           </p>
@@ -33,7 +33,7 @@ export default function Home() {
         <div className="flex flex-col lg:w-1/2 gap-6 justify-center">
           <div className="flex flex-col gap-4">
             <a
-              href="https://github.com/anaralabs/lector"
+              href="https://github.com/remi-letterai/lector"
               target="_blank"
               rel="noreferrer"
               className="inline-flex hover:bg-[#ff7a00]/20 transition-colors items-center gap-2 text-sm bg-[#ff7a00]/10 text-[#ff7a00] px-4 py-1 rounded-full w-fit"

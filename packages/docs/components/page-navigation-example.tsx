@@ -1,6 +1,6 @@
 "use client";
 
-import { CanvasLayer, Page, Pages, Root, TextLayer } from "@anaralabs/lector";
+import { CanvasLayer, Page, Pages, Root, TextLayer } from "@letter-ai/lector";
 import PageNavigationButtons from "./ui/page-navigation-buttons";
 import "@/lib/setup";
 

@@ -7,7 +7,7 @@ settings:
 importers:
   .:
     dependencies:
-      "@anaralabs/lector":
+      "@letter-ai/lector":
         specifier: latest
         version: 1.1.2(@types/react@18.3.18)(pdfjs-dist@4.9.155)(react@18.3.1)
       pdfjs-dist:
@@ -1009,7 +1009,7 @@ packages:
         integrity: sha512-fEzPV3hSkSMltkw152tJKNARhOupqbH96MZWyRjNaYZOMIzbrTeQDG+MTc6Mr2pgzFQzFxAfmhGDNP5QK++2ZA==,
       }
 
-  "@anaralabs/lector@1.1.2":
+  "@letter-ai/lector@1.1.2":
     resolution:
       {
         integrity: sha512-dR2Ju2T8UDQQys4Cg0qHrL7IaHzLO47ojWx/0G4kRZOnNAqjx0UCzMGX+xjI6K+urpGC+IPCER4MMKDRkjVI+Q==,
@@ -3036,7 +3036,7 @@ snapshots:
 
   "@ungap/structured-clone@1.2.1": {}
 
-  "@anaralabs/lector@1.1.2(@types/react@18.3.18)(pdfjs-dist@4.9.155)(react@18.3.1)":
+  "@letter-ai/lector@1.1.2(@types/react@18.3.18)(pdfjs-dist@4.9.155)(react@18.3.1)":
     dependencies:
       "@floating-ui/react": 0.26.28(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       "@radix-ui/react-slot": 1.1.1(@types/react@18.3.18)(react@18.3.1)

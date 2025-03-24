@@ -6,7 +6,7 @@ import {
   Pages,
   Root,
   TextLayer,
-} from "@anaralabs/lector";
+} from "@letter-ai/lector";
 import React, { useState, FormEvent } from "react";
 import "@/lib/setup";
 
